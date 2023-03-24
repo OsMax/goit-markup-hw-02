@@ -1,6 +1,24 @@
+:root{
+    /* background */
+    --bgc-main: #ffffff;
+    --bgc-hero-footer: #2E2F42;
+    --bgc-order-service: #4D5AE5;
+    --bgc-team: #F4F4FD;
+    --bgc-btn-cat: #F4F4FD;
+    --bgc-btn-active: #404BBF;
+
+    /* font-colors */
+    --font-main: #434455;
+    --font-logo: #4D5AE5;
+    --font-nav: #2E2F42;
+    --font-logo-head: #2E2F42;
+    --font-logo-foot: #F4F4FD;
+    --font-white: #FFFFFF;
+    --font-btn-cat: #4D5AE5;
+}
 body{
-    background-color: #FFFFFF;
-    color: #434455;
+    background-color: var(--bgc-main);
+    color: var(--font-main);
     font-family: 'Roboto', sans-serif;
     width: 1440px;
     line-height: 1.5;
@@ -30,7 +48,7 @@ body{
     text-decoration: none;
 }
 .site-nav{
-    color:#2E2F42;
+    color: var(--font-nav);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -47,7 +65,7 @@ body{
 }
 
 .link-cont{
-    color: #434455;
+    color: var(--font-main);
     font-size: 16px;
     letter-spacing: 0.02em;
 }
@@ -61,14 +79,14 @@ body{
 /* Sections */
 
 .hero{
-    background-color: #2E2F42;
+    background-color: var(--bgc-hero-footer);
     text-align: center;
     height: 600px;
 }
 .hero-title{
     margin: auto;
     padding: 188px 0 0 0;
-    color: #ffffff;
+    color: var(--font-white);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -86,17 +104,17 @@ body{
     margin: 48px 0 0 0;
     width: 168px;
     height: 56px;
-    color: #FFFFFF;
+    color: var(--font-white);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
-    background: #4D5AE5;
+    background: var(--bgc-order-service);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
 .order-service:hover{
-    background: #404BBF;
+    background: var(--bgc-btn-active);
 }
 
 .section{
@@ -151,14 +169,14 @@ body{
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color: #4D5AE5;
+    color: var(-font-logo);
     text-decoration: none;
 }
 .logo-head{
-    color:#2E2F42;
+    color: var(--font-logo-head);
 }
 .logo-foot{
-    color:#F4F4FD;
+    color: var(--font-logo-foot);
 }
 
 .top-line{
@@ -168,22 +186,20 @@ body{
 
 /* Members */
 .team{
-    background-color: #F4F4FD;
+    background-color: var(--bgc-team);
     padding: 0 0 120px 0;
 }
 .team-title{
     padding-top: 120px;
 }
-.member-img{
-    /*  */
-}
+
 .member-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--font-nav);
 }
 .member-desc{
     font-size: 16px;
@@ -195,7 +211,7 @@ body{
 
 .foot {
     padding: 100px 0 100px 0;
-    background-color: #2E2F42;
+    background-color: var(--bgc-hero-footer);
 }
 
 .foot > .logo
@@ -232,8 +248,8 @@ body{
 .cat-button{
     font-weight: 500;
     font-size: 16px;
-    color: #4D5AE5;
-    background: #F4F4FD;
+    color: var(--font-btn-cat);
+    background: var(--bgc-btn-cat);
     padding: 12px 24px 12px 24px;
     border: 1px solid #E7E9FC;
 }
@@ -269,20 +285,7 @@ body{
 .cat-button:hover,
 .cat-button:focus,
 .cat-button:active{
-    color: #ffffff;
-    background: #404BBF;
+    color: var(--font-white);
+    background: var(--bgc-btn-active);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-/* COLORS
-    Font:   main -  #434455
-            more -  #4D5AE5
-                    #2E2F42
-                    #FFFFFF
-                    #F4F4FD
-
-    Backgrownd: main -  #ffffff
-                more -  #E7E9FC
-                        #2E2F42
-                        #F4F4FD
-
-*/
