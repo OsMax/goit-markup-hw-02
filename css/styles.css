@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFFFF;
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal; 
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.com-qalities{
+    opacity: 0;       
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+}
+.head-logo{
+    color:#2E2F42;
+}
+.foot-logo{
+    color:#F4F4FD;
+}
+/* COLORS
+    Font:   main -  #434455
+            more -  #4D5AE5
+                    #2E2F42
+                    #FFFFFF
+                    #F4F4FD
+
+    Backgrownd: main -  #ffffff
+                more -  #E7E9FC
+                        #2E2F42
+                        #F4F4FD
+
+*/
