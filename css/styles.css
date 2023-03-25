@@ -177,7 +177,7 @@ body{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(-font-logo);
+    color: var(--font-logo);
 }
 .logo-head{
     color: var(--font-logo-head);
