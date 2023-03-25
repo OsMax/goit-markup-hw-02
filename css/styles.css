@@ -45,6 +45,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     margin: 0 40px 0 0;
 }
 
@@ -104,6 +105,9 @@ body{
     background: var(--bgc-btn-active);
 }
 
+.section{
+    padding: 120px 0 0 0;
+}
 
 .section-title{
     text-align: center;
@@ -187,6 +191,7 @@ body{
 .member-desc{
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 /* footer */
